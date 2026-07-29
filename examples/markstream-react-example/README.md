@@ -28,7 +28,7 @@ Open the local URL printed by Vite and click **Start mock stream**.
 import MarkdownRender from 'markstream-react';
 import 'markstream-react/index.css';
 
-<MarkdownRender content={content} final={isDone} typewriter smoothStreaming renderCodeBlocksAsPre fade={false} />;
+<MarkdownRender content={content} final={isDone} smoothStreaming renderCodeBlocksAsPre fade={false} />;
 ```
 
 `markstream-react` is the React renderer in the Markstream family. The family also includes Vue, Svelte, Angular, Vue 2, and framework-agnostic parser/core packages. See the [framework overview](https://markstream.simonhe.me/frameworks) for the package matrix.

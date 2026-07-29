@@ -83,7 +83,6 @@ const Landing = () => {
                 content={content}
                 final={isDone}
                 fade={false}
-                typewriter
                 smoothStreaming
                 smoothStreamingOptions={{
                   minCharsPerSecond: 24,
